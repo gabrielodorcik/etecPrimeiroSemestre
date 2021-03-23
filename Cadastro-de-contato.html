@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title> Formulário: Contato </title>
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+
+
+<body>
+    
+    <form action="exibir-dados.php" class="formulario" method="post"> 
+        
+        <p><b>FORMULÁRIO PARA CONTATO</b></p>
+    
+        
+        <div class="field">
+            <label for="nome"><b>Seu Nome:</b></label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
+        </div>
+
+        <div class="field">
+            <label for="email"><b>Seu E-Mail:</b></label>
+            <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required>
+        </div>        
+
+       <div class="field">
+            <label for="text"><b>Assunto:</b></label>
+            <input type="text" id="text"  name="text" placeholder="Assunto*" required></input>
+        </div>
+        <div class="field">
+            <label for="mensagem"><b>Sua Mensagem:</b></label>
+            <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
+        </div>
+
+        <input type="submit" name="enviar" value="Enviar">    
+    </form>

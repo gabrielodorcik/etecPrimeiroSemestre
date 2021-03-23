@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title> Formulário: Faça o seu cadastro. </title>
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+
+
+<body>
+    <form action="exibir-dados.php" class="formulario" method="post"> 
+        
+
+        <p>Preencha os campos a seguir para a o seu cadastro:</p>
+        
+        <div class="field">
+            <label for="nome">Seu Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
+        </div>
+
+         <div class="field">
+            <label for="email">Seu E-Mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required>
+        </div>        
+
+         <div class="field">
+            <label for="telefone">Seu Telefone:</label>
+            <input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone">
+        </div>
+
+       <div class="field">
+            <label for="email">CPF/CNPJ:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu CPF ou CNPJ*" required>
+        </div>        
+        <p>Qual sua idade?</p>
+        <input type="radio" name="idade" value="18_22">18 a 22 <br>
+        <input type="radio" name="idade" value="23_30">23 a 30 <br>
+        <input type="radio" name="idade" value="mais31">acima de 31<br>
+        <p>Não opcional!</p>
+        <div class="field">
+            <label for="mensagem">Sua mensagem:</label>
+            <textarea name="mensagem" id="mensagem" placeholder="Avaliação de Atendimento*" required></textarea>
+        </div>
+        <input type="submit" name="enviar" value="Enviar">    
+    </form>
+    
+</body>
+
+
+
+
+
+
+
+
+
+</html>

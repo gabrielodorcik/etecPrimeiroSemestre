@@ -1,0 +1,23 @@
+body{
+    
+background-color: burlywood;
+}
+h1 {text-align: center;
+    color: rgb(255, 125, 4);
+    font-size:  45px;;
+    font-weight: bold; font-style: italic; 
+}  
+Cite {font-size: 45px;
+    font-weight: bold;font-style:italic; 
+    color: rgb(187, 255, 0);
+    text-align:center;
+
+   
+}
+p {
+    text-align:center;
+    color:rgb(255, 255, 255);
+    font-weight: bold;font-style:italic; 
+    font-size: 40px;
+    
+}
